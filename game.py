@@ -5,7 +5,7 @@ choice = { 1: "rock",
           3: "scissors" }
 
 highscore = open("highscore.txt", "a+")
-highscore.seek(0)
+highscore.seek(12)
 current_high = highscore.read()
 
 if current_high == "":
